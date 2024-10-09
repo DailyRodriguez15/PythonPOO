@@ -1,4 +1,4 @@
-"""Crea una clase abstracta Empleado con un método abstracto calcular_salario(). Luego, crea dos clases concretas EmpleadoTiempoCompleto y EmpleadoPorHoras que implementen calcular_salario() de manera distinta."""
+"""Crea una clase abstracta TareaEmpleado con un método abstracto realizar_tarea(). Implementa las clases Ingeniero y Doctor que heredan de TareaEmpleado e implementan el método realizar_tarea() de manera específica según su especialidad.."""
 
 from abc import ABC, abstractmethod
 
